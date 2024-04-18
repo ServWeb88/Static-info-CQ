@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía Interactiva de Empresa de Insecticidas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS para estilos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Div para el logo de carga -->
+    <div id="loader">
+        <img src="loader.gif" alt="Logo de carga">
+    </div>
+
+    <div class="container" id="content"> <!-- Contenedor principal -->
+
+        <!-- Encabezado con logo interactivo -->
+        <header>
+            <div class="logo-container">
+                <a href="https://codequim.com/" target="_blank">
+                    <img src="logo.png" alt="Logo de la empresa" id="logo">
+                </a>
+            </div>
+        </header>
+
+        <!-- Información de la empresa -->
+        <section id="informacion-empresa">
+            <h2>Codequim S.A. de C.V.</h2>
+            <p>Empresa Mexicana con amplia experiencia en brindar soluciones para controlar enfermedades transmitidas por vectores.</p>
+        </section>
+
+        <!-- Ubicación y Mapa -->
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <div id="direccion">
+                <p>
+                    Av. Insurgentes Sur 664-piso 11, Del Valle norte, Benito Juárez, 03103 Ciudad de México, CDMX, Mexico
+                </p>
+            </div>
+            <!-- Contenedor para el mapa -->
+            <div id="mapa">
+                <!-- Mapa de Google -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.7006794018216!2d-99.17298476121599!3d19.395057025468024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff7f0ee7119b%3A0xca3382e08c5220a3!2sCodequim%20S.%20A.%20de%20C.%20V.!5e0!3m2!1sen!2sus!4v1713470462003!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="rutas">
+                <h3>Rutas de Llegada</h3>
+                <ul>
+                    <li>
+                        <b>Auto</b>
+                        <p>Para llegar en auto puedes dar clic en los íconos de google maps o waze para acceder a la dirección en tu dispositivo.</p>
+                        <ul>
+                            
+                            <li>
+                                <div class="route-links">
+                                    <a href="https://maps.app.goo.gl/GcLqi8pa6UAM6ddz5" target="_blank">
+                                        <img src="google-maps.svg" alt="Google Maps" width="80" height="80">
+                                    </a>
+                                    <a href="https://waze.com/ul/h9g3qr6c22" target="_blank">
+                                        <img src="waze-icon.svg" alt="Waze" width="80" height="80">
+                                    </a>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Transporte público</b>
+                        <div class="route-links">
+                            <a href="https://www.metrobus.cdmx.gob.mx/mapas-rutas" target="_blank">
+                                <img src="movilidad-integrada.svg" alt="Movilidad integrada" width="80" height="80">
+                            </a>
+                        </div>
+                        <p>
+                            El Metrobus <b>Poliforum</b> es una de las estaciones que forma parte de la línea 1, codequim se encuentra a 2 minutos caminando saliendo del la estación por el lado derecho.
+                        </p>
+                        <p>
+                            El Metrobus Poliforum tiene la ruta de:
+                            <ul class="vineta">
+                                <li>Doctor Gálvez</li>
+                                <li>Norte, Centro</li>
+                                <li>Sur</li>
+                                <li>Rojo Gómez</li>
+                            </ul>
+                        </p>
+                    </li>
+                </ul>
+            </div>            
+            <div id="estacionamientos">
+                <h3>Estacionamientos Cercanos</h3>
+                <br>
+                <ul>
+                    <li>
+                        <b>Mambocafé</b>
+                        <ul class="vineta">
+                            <li>Costo por hora: $24 auto $32 camioneta</li>
+                            <li>Costo todo el día: $100</li>
+                            <li>Horario: 9:00 am a 11:00 pm</li>
+                            <li>Dirección: Jesús Urquiaga 14, Col del Valle Nte, Benito Juárez, 03100 Ciudad de México, CDMX</li>
+                            <li>Mapa: <a href="https://maps.app.goo.gl/ejxhWANTUjiaGSLS8" target="_blank" rel="noopener noreferrer">google maps</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Amarillo</b>
+                        <ul class="vineta">
+                            <li>Costo por hora: $30</li>
+                            <li>Costo todo el día: $240</li>
+                            <li>Dirección: Av. Insurgentes Sur 662, Col del Valle Nte, Benito Juárez, 03103 Ciudad de México, CDMX</li>
+                            <li>Mapa: <a href="https://maps.app.goo.gl/KqEq8bm3ex8JKveD9" target="_blank" rel="noopener noreferrer">google maps</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <p>
+                    <small>
+                        <b>Nota 1:</b> En Codequim, no contamos con estacionamiento para visitas ni proveedores.
+                    </small>
+                </p>
+                <p>
+                    <small>
+                        <b>Nota 2:</b> No tenemos convenio con la administración de los estacionamientos, la información es 100% informativa y los costos pueden no ser correctos.
+                    </small>
+                </p>
+            </div>
+        </section>
+
+        <!-- Información de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p>
+                    <i class="fas fa-envelope"></i> <a href="mailto:contacto@codequim.com">contacto@codequim.com</a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> <a href="tel:+(55)26141533">+(55) 26-14-15-33</a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> <a href="tel:+(55)67218665">+(55) 67-21-86-65</a>
+                </p>
+            </div>
+        </section>             
+
+        <!-- Información de Recepción -->
+        <section id="recepcion">
+            <h2>Información de recepción</h2>
+            <p>Al llegar a recepción te solicitarán datos a cerca de tu visita y una identificación que se quedrá en resguardo por personal de la administracion del edificio y se te entregará una tarjeta de acceso.</p>
+            <br>
+            <p>Deberás dirigirte a los torniquetes, ingresar con la tarjeta de acceso y tomar el elevador hasta el piso 11.</p>
+            <br>
+            <p>Saliendo del elevador se encuentra la recepción de codequim, deberás anunciar tu llegada al personal de recepción.</p>
+            <br>
+            <p>Al finalizar tu visita no olvides recoger tu identificación y entregar la tarjeta de acceso.</p>
+            <br>
+            <p class="manuscrita">Gracias por tu visita!!</p>
+        </section>
+
+    </div> <!-- Fin del contenedor principal -->
+
+    <script src="script.js"></script> <!-- Archivo JavaScript para interactividad -->
+</body>
+
+</html>
